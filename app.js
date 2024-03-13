@@ -24,7 +24,7 @@ for(let prop in Inspiration) {
         InspirationOTD.push(`Your lucky number of the day is: ${Inspiration[prop][optionIdx]}`)
             break
         default: 
-        Inspiration.push('Error')
+        InspirationOTD.push('Error')
     }
 }
 
